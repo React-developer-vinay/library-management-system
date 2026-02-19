@@ -13,7 +13,7 @@ const connectDB = async () => {
     console.log("MongoDB connected");
   } catch (err) {
     console.error("MongoDB connection failed:", err.message);
-    process.exit(1);   // 👈 server band ho jayega if DB fails
+    process.exit(1);   // 👈 server band ho jayega if DB ggfails
   }
 };
 
